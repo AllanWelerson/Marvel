@@ -1,0 +1,185 @@
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.top .banner {
+    line-height: 150px;
+    height: 150px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(to right, rgba(150, 40, 27, .97)  , rgba(210, 77, 87, .97) , rgba(150, 40, 27, .97)), url(../img/vingadores.png);
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Abril Fatface', cursive;  
+    
+}
+
+.top .menu{
+    background: linear-gradient(to right, rgb(150, 40, 27)  , rgb(210, 77, 87) , rgb(150, 40, 27));
+    height: 50px;
+    line-height: 50px;   
+    border-top: 1px solid #e26a6a;
+    box-shadow: 1px 1px 1px #22313f;
+}
+
+.top .menu ul{
+   text-align: center;   
+}
+
+.top .menu ul li{
+    display: inline; 
+    font-size: 20px;
+    padding: 10px 40px;
+    color: white; 
+    transition: .38s ease-in-out ;
+}
+
+.top .menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+.top .menu ul li:hover{
+    background-color: rgb(210, 77, 87) ;
+    box-shadow: 1px 1px 1px #96281b;
+    text-shadow: 1px 1px 2px black;
+
+    
+}
+
+.middle{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: justify;
+    
+}
+
+.middle .content{
+   margin: 1px;
+   width: 500px; 
+   min-height:500px; 
+   
+}
+.middle .second-menu{
+   margin: 1px;
+   min-width: 300px;
+   
+}
+
+.middle .content h1{
+    color: #96281b;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #96281b;
+}
+.middle .content p{
+    text-indent: 20px;
+    line-height: 25px;
+    letter-spacing: .5px;
+    word-spacing: 2px;
+    margin: 12px 0;
+}
+
+.middle .content .description{
+    margin: 20px 0;
+}
+
+.middle .content h2 {
+    margin: 20px;
+    color: #22313f;
+    
+}
+.middle .content h2:before{
+    content: '# ';
+} 
+
+.middle .content .description img{
+    width: 100%;
+    margin: 10px 0;
+}
+.middle .content .description figcaption{
+    text-align: center;
+}
+
+.middle .content .characteristics ul{
+    margin-left: 60px;
+}
+
+.middle .second-menu .list-menu{
+    
+    margin: 10px 30px; 
+    text-align: center;
+    
+    
+}
+
+.middle .second-menu .list-menu p{
+    background: linear-gradient(to right, rgb(150, 40, 27)  , rgb(210, 77, 87) , rgb(150, 40, 27));
+    color: white;
+    font-size: 1.4em;
+    padding: 3px;
+    border-bottom: 1px solid #96281b;
+}
+
+.middle .second-menu .list-menu ul li {
+    list-style: none;    
+    color: #96281b;
+    font-size: 1.1em;
+    padding: 3px;
+    border-bottom: 1px solid #96281b;
+    border-left: 1px solid #96281b;
+    border-right: 1px solid #96281b;
+    
+      
+}
+
+.middle .second-menu .list-menu ul li:hover {
+    background-color: rgb(210, 77, 87) ;
+    color: white;
+}
+
+
+.footer{
+    margin-top: 50px;
+    background-color: #6c7a89;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-weight: bolder;
+}
+.footer .desc a{
+    text-decoration: none;
+    color: #913d88;
+}
+.footer .desc a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 803px){
+    .middle .second-menu{
+        margin: 1px;
+        width: 500px;
+   }
+}
+
+@media (max-width: 640px){
+    .top .menu ul li{
+    display: inline; 
+    font-size: 18px;
+    padding: 10px 8px !important;
+    color: white; 
+    transition: .38s ease-in-out ;
+}
+
+}
+
