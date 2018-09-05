@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro');
+@import url('https://fonts.googleapis.com/css?family=Teko');
 
 *{
     margin: 0;
@@ -7,13 +9,23 @@
     
 }
 
+/*font-family*/
+p{
+    font-family: 'Source Serif Pro', serif;
+}
+
+h1, h2{
+    font-family: 'Teko', sans-serif;
+}
 
 .top .banner {
     line-height: 150px;
     height: 150px;
+    /*text-align*/
     text-align: center;
     color: white;
-    background: linear-gradient(to right, rgba(150, 40, 27, .97)  , rgba(210, 77, 87, .97) , rgba(150, 40, 27, .97)), url(../img/vingadores.png);
+    background: linear-gradient(to right, rgba(150, 40, 27, .97)  
+    , rgba(210, 77, 87, .97) , rgba(150, 40, 27, .97)), url(../img/vingadores.png);
     font-size: 3em;
     text-transform: uppercase;
     font-weight: bolder;
@@ -116,7 +128,7 @@
 
 .middle .second-menu .list-menu{
     
-    margin: 10px 30px; 
+    margin: 48px 30px; 
     text-align: center;
     
     
